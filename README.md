@@ -1,4 +1,4 @@
-# Acrity Connector
+# ▷|◁ Acrity Connector
 
 The **Acrity Connector** is the on-premises agent for **Acrity** (Adversarial Code
 Review). It runs inside your own network and lets Acrity's cloud review pipeline reach
