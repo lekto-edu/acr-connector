@@ -32,15 +32,7 @@ sent to the Acrity cloud.
 
 ## How it works
 
-```
-   your network                         Acrity cloud
- ┌───────────────┐   outbound WSS    ┌────────────────┐
- │ Acrity        │ ───────────────►  │  Acrity Broker │ ──► review pipeline
- │ Connector     │   (egress only)   └────────────────┘
- │   │           │
- │   └─► your self-hosted VCS (GitLab / GHE / Bitbucket / Azure DevOps)
- └───────────────┘
-```
+<img width="1671" height="941" alt="image" src="https://github.com/user-attachments/assets/b6505a98-92ff-440d-a706-6be2ef0f1d68" />
 
 The connector receives review requests over the tunnel, talks to your VCS using **your**
 credentials (which never leave your network), and streams results back. No inbound ports
